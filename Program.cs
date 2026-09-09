@@ -67,7 +67,7 @@ namespace RouteAss_2;
 
         #region [6th Answer]
 
-        string resultInterpolated = $"Book: {title}, Pages: {pages}";
+        string resultInterpolated = $"Book: {Title}, Pages: {pages}";
         Console.WriteLine(resultInterpolated);
 
         #endregion
@@ -76,7 +76,7 @@ namespace RouteAss_2;
 
         #region [7th Answer]
 
-        string resultFormat = string.Format("Book: {0}, Pages: {1}", title, pages);
+        string resultFormat = string.Format("Book: {0}, Pages: {1}", Title, pages);
         Console.WriteLine(resultFormat);
 
         #endregion
@@ -85,9 +85,9 @@ namespace RouteAss_2;
 
         #region [8th Answer]
 
-        int pages = 464;
+        int Pages = 464;
 
-        if (pages > 300)
+        if (Pages > 300)
         {
             Console.WriteLine("Long Book");
         }
@@ -102,7 +102,6 @@ namespace RouteAss_2;
 
         #region [9th Answer]
 
-        int Pages = 464;
         bool isAvailable = true;
 
         if (Pages > 300 && isAvailable)
@@ -112,6 +111,29 @@ namespace RouteAss_2;
 
         #endregion
 
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [10th Answer]
+
+        string title1 = "Refactoring";
+        switch(title1)
+        {
+            case "Clean Code":
+                Console.WriteLine("great choice");
+                break;
+            case "Refactoring":
+                Console.WriteLine("nice pick");
+                break;
+            default:
+                Console.WriteLine("Never heard of it");
+                break;
+        }
+
+        #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+
+        
     }
 }
 
