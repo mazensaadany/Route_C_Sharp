@@ -188,6 +188,20 @@ namespace RouteAss_2;
         }
 
         #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [16th Answer]
+        
+        for (int i = 0; i < books.Length; i++)
+        {
+            if (books[i] == "Refactoring")
+            {
+                break;
+            }
+        }
+
+        #endregion
     }
 }
 
