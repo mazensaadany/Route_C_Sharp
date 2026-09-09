@@ -63,6 +63,15 @@ namespace RouteAss_2;
 
         #endregion
 
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [6th Answer]
+
+        string resultInterpolated = $"Book: {title}, Pages: {pages}";
+        Console.WriteLine(resultInterpolated);
+
+        #endregion
+
     }
 }
 
