@@ -72,6 +72,15 @@ namespace RouteAss_2;
 
         #endregion
 
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [7th Answer]
+
+        string resultFormat = string.Format("Book: {0}, Pages: {1}", title, pages);
+        Console.WriteLine(resultFormat);
+
+        #endregion
+
     }
 }
 
