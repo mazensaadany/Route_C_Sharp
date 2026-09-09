@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-        #region  [1st Answer]
+        #region [1st Answer]
 
         string title = "clean code";
 
@@ -16,8 +16,20 @@
 
         #endregion
 
+        Console.WriteLine("--------------------------------------------------");
         
+        #region [2nd Answer]
 
+        string v1 = "clean code";
+        string v2 = "clean code";
+
+        Console.WriteLine(ReferenceEquals(v1, v2));
+
+        #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+
+        
 
     }
 }
