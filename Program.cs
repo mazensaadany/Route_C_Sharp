@@ -145,13 +145,41 @@ namespace RouteAss_2;
         #region [12th Answer]
 
         string[] books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
-
+        
         for (int i = 0; i < books.Length; i++)
         {
             Console.WriteLine($"{i+1}.{books[i]}");
         }
 
         #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [13th Answer]
+
+        int index = 0;
+        while (index<books.Length)
+        {
+            Console.WriteLine(books[index]);
+            index++;
+        }
+        #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [14th Answer]
+
+            int index2 = 0;
+        do
+        {
+            Console.WriteLine("checking books...");
+            index2 ++;
+        } while (index2 < books.Length);
+
+        #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+        
     }
 }
 
