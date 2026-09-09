@@ -98,6 +98,20 @@ namespace RouteAss_2;
 
         #endregion
 
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [9th Answer]
+
+        int Pages = 464;
+        bool isAvailable = true;
+
+        if (Pages > 300 && isAvailable)
+        {
+            Console.WriteLine("You can borrow this book");
+        }
+
+        #endregion
+
     }
 }
 
