@@ -139,6 +139,19 @@ namespace RouteAss_2;
         Console.WriteLine(sizeLabel);
 
         #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [12th Answer]
+
+        string[] books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
+
+        for(int i = 0; i < books.Length; i++)
+        {
+            Console.WriteLine($"{i+1}.{books[i]}");
+        }
+
+        #endregion
     }
 }
 
