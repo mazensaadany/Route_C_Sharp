@@ -202,6 +202,21 @@ namespace RouteAss_2;
         }
 
         #endregion
+
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [17th Answer]
+
+        for (int i = 0; i < books.Length; i++)
+        {
+            if (books[i] == "The Pragmatic Programmer")
+            {
+                continue;
+            }
+            Console.WriteLine(books[i]);
+        }
+
+        #endregion
     }
 }
 
