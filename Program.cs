@@ -41,6 +41,16 @@ namespace RouteAss_2;
 
         #endregion
 
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [4th Answer]
+
+        sb.Replace("Book List", "Library");
+
+        Console.WriteLine(sb);
+
+        #endregion
+
     }
 }
 
