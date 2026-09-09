@@ -51,6 +51,18 @@ namespace RouteAss_2;
 
         #endregion
 
+        Console.WriteLine("--------------------------------------------------");
+
+        #region [5th Answer]
+
+        string Title = "Clean Code";
+        int pages = 464;
+
+        string result = "Book: " + Title + ", Pages: " + pages;
+        Console.WriteLine(result);
+
+        #endregion
+
     }
 }
 
