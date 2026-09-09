@@ -133,7 +133,12 @@ namespace RouteAss_2;
 
         Console.WriteLine("--------------------------------------------------");
 
-        
+        #region [11th Answer]
+
+        string sizeLabel = pages > 300 ? "long book" : "short book";
+        Console.WriteLine(sizeLabel);
+
+        #endregion
     }
 }
 
