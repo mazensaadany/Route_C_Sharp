@@ -217,6 +217,22 @@ namespace RouteAss_2;
         }
 
         #endregion
+
+        Console.WriteLine("_--------------------------------------------------");
+
+        #region [18th Answer]
+
+        void PrintFirstBook(string[] books)
+        {
+            if (books == null || books.Length == 0)
+            {
+                return; 
+            }
+
+            Console.WriteLine(books[0]);
+        }
+
+        #endregion
     }
 }
 
