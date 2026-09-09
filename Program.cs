@@ -179,7 +179,15 @@ namespace RouteAss_2;
         #endregion
 
         Console.WriteLine("--------------------------------------------------");
-        
+
+        #region [15th Answer]
+
+        foreach (string book in books)
+        {
+            Console.WriteLine(book);
+        }
+
+        #endregion
     }
 }
 
